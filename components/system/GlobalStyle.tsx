@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
 export const GlobalStyle = createGlobalStyle`
   *, ::before, ::after {
@@ -16,16 +16,27 @@ export const GlobalStyle = createGlobalStyle`
     /* Colors */
     --color-white : #fff;
     --color-black : #292929;
+    --text: #000000;
+    --textLight: #D9D9D9;
+    --interaction: #897160;
+    --accent: #5D4149;
+    --background: #FFF;
+    --background-medium: #AA9688;
+    --backgroundLight: #E7E3DF;
+    --statusGreenFull: #337E33;
+    --statusGreenLight: #EAF2EA;
    
     /* Font-Sizes */
     --body-font-size: 1rem;
 
+
+
     /* Breakpoints */
     --gutter:1rem;
     --breakpoint-sm: 640px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
+    --breakpoint-md: 750px;
     --breakpoint-xl: 1280px;
+
 
     /* others */
     --transition: all 0.3s ease-in-out;
